@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  background: #0b0d10;
+  color: #e5e9ef;
+  min-height: 100svh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Prevent iOS bounce that would reveal the naked document beneath the try-on canvas */
+.tryon-root {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    #1a1f27 25%,
+    #2a323d 50%,
+    #1a1f27 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite;
+}

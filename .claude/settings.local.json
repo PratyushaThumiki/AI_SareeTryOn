@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm test *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3001/)",
+      "Bash(npx tsc *)",
+      "Bash(npx vitest *)",
+      "WebSearch",
+      "WebFetch(domain:unsplash.com)",
+      "WebFetch(domain:images.unsplash.com)",
+      "WebFetch(domain:zhenchenwan.github.io)",
+      "WebFetch(domain:paperswithcode.com)",
+      "WebFetch(domain:arxiv.org)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:ai.google.dev)",
+      "WebFetch(domain:developers.google.com)",
+      "WebFetch(domain:google.github.io)",
+      "WebFetch(domain:huggingface.co)",
+      "Bash(mkdir -p \"C:/Users/PratyushaThumiki/Downloads/MVP/experiments/saree-vton/scripts\")",
+      "Bash(mkdir -p \"C:/Users/PratyushaThumiki/Downloads/MVP/experiments/saree-vton/inputs/person\")",
+      "Bash(mkdir -p \"C:/Users/PratyushaThumiki/Downloads/MVP/experiments/saree-vton/inputs/garments\")",
+      "Bash(mkdir -p \"C:/Users/PratyushaThumiki/Downloads/MVP/experiments/saree-vton/outputs/baseline\")",
+      "Bash(mkdir -p \"C:/Users/PratyushaThumiki/Downloads/MVP/experiments/saree-vton/outputs/saree\")"
+    ]
+  }
+}

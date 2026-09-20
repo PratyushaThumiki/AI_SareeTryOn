@@ -1,0 +1,9 @@
+{
+  "id": "dm-vton-student-v1",
+  "path": "/models/dm-vton-student.onnx",
+  "inputWidth": 192,
+  "inputHeight": 256,
+  "inputNames": ["person_agnostic", "cloth", "cloth_mask"],
+  "outputName": "output",
+  "notes": "DM-VTON student model (GAN-based, ~37MB). Generate with experiments/mobile-vton/scripts/06_export_dm_vton_onnx.py. Place the .onnx file in this directory."
+}
